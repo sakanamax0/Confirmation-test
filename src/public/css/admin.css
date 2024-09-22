@@ -1,0 +1,75 @@
+/* admin.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    /* 縦に表示 */
+    gap: 10px;
+    /* 各要素の間にスペースを追加 */
+    padding: 20px;
+    max-width: 400px;
+    /* 最大幅を設定 */
+    margin: auto;
+    /* 中央揃え */
+}
+
+label {
+    margin-bottom: 5px;
+    /* ラベルと入力欄の間にスペースを追加 */
+}
+
+input,
+select,
+button {
+    width: 100%;
+    /* 入力欄やボタンの幅を100%に */
+    padding: 10px;
+    /* パディングを追加 */
+    box-sizing: border-box;
+    /* パディングを含めてボックスサイズを計算 */
+}
+
+button {
+    background-color: #4CAF50;
+    /* ボタンの背景色 */
+    color: white;
+    /* ボタンの文字色 */
+    border: none;
+    /* ボタンの枠線を削除 */
+    cursor: pointer;
+    /* マウスカーソルをポインターに */
+}
+
+button:hover {
+    background-color: #45a049;
+    /* ホバー時の背景色 */
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    /* アクションボタンを左右に分ける */
+    margin-top: 20px;
+    /* マージンを追加 */
+}
